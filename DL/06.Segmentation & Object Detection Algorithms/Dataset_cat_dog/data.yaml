@@ -1,0 +1,5 @@
+Train: /content/drive/MyDrive/Dataset_cat_dog/Train
+Test: /content/drive/MyDrive/Dataset_cat_dog/Test
+
+nc: 2
+names:['0_Cat','1_dog']

@@ -1,0 +1,970 @@
+Introduction
+The bivariate normal distribution models two continuous random variables (X, Y ) that follow a joint Gaussian law. It
+generalizes the univariate normal distribution to two dimensions, capturing both individual variation and linear dependence
+between variables.
+
+NPTEL
+
+Real-Life Motivation
+Height and weight of individuals.
+Length and width of leaves.
+Returns on two correlated stocks.
+Exam scores in two related subjects.
+The bivariate normal captures both individual normality and the correlation structure between the two variables.
+
+NPTEL
+
+Definition
+A random vector (X, Y ) is said to have a bivariate normal distribution with parameters μX , μY , σX , σY , and ρ if its joint
+probability density function (PDF) is given by:
+
+f (x, y) = 1
+2πσX σY
+p
+1 − ρ
+2
+exp
+−
+1
+2(1 − ρ
+2)
+
+(x − μX )
+2
+σ
+2
+X
+− 2ρ
+(x − μX )(y − μY )
+σX σY
++
+(y − μY )
+2
+σ
+2
+Y
+ .
+
+where μX , μY are real numbers, σX , σY are non-negative real numbers, and |ρ| ≤ 1.
+Bivariate Central Limit Theorem
+For large n, the average of “any” i.i.d. bivariate sample of size
+
+NPTEL
+
+n follows bivariate normal distribution.
+
+Parameters
+μX , μY : means of X and Y .
+σX , σY : standard deviations.
+ρ: correlation coefficient.
+These parameters completely determine the shape, spread, and orientation of the joint distribution.
+
+NPTEL
+
+μ
+X
+μ
+Y
+σ
+X
+σ
+Y
+ρ
+-0.39 0.31 0.736 1.36 -0.326
+NPTEL
+
+μ
+X
+μ
+Y
+σ
+X
+σ
+Y
+ρ
+0.365 -0.335 1.396 0.82 0.214
+NPTEL
+
+μ
+X
+μ
+Y
+σ
+X
+σ
+Y
+ρ
+-0.145 0.58 0.71 0.972 0.124
+NPTEL
+
+μ
+X
+μ
+Y
+σ
+X
+σ
+Y
+ρ
+1.085 -1.255 1.042 1.498 0.06
+NPTEL
+
+Covariance Matrix
+The covariance matrix of (X, Y ) is
+
+Σ = 
+σ
+2
+X
+ρσX σY
+ρσX σY σ
+2
+Y
+
+.
+
+It encodes both the individual variances and the covariance (linear dependence) between X and Y .
+
+NPTEL
+
+Marginal Distributions
+The marginal distributions of X and Y are both normal:
+X ∼ N (μX , σ2
+
+X ), Y ∼ N (μY , σ2
+Y ).
+Even though X and Y are jointly distributed, their individual behaviors remain normal.
+NPTEL
+
+Conditional Distributions
+For the bivariate normal distribution,
+
+X | Y = y ∼ N 
+μX + ρ
+σX
+σY
+(y − μY ), σ2
+X (1 − ρ
+2
+)
+
+.
+
+Similarly,
+
+Y | X = x ∼ N 
+μY + ρ
+σY
+σX
+(x − μX ), σ2
+Y (1 − ρ
+2
+)
+
+.
+NPTEL
+
+Interpretation of Conditional Expectation
+The conditional expectation E[X|Y = y] is a linear function of y:
+E[X|Y = y] = μX + ρ
+σX
+σY
+(y − μY ).
+This expresses the best linear prediction of X based on the observed value of Y .
+NPTEL
+
+Special Case: Independence
+If ρ = 0, then
+
+f (x, y) = fX (x)fY (y),
+
+and X and Y are independent. The joint density contours are circular (if σX = σY ) or axis-aligned ellipses otherwise.
+
+NPTEL
+
+Geometry of the Distribution
+The joint density of (X, Y ) forms elliptical contours:
+ρ > 0: Ellipses tilt upward (positive correlation).
+ρ < 0: Ellipses tilt downward (negative correlation).
+ρ = 0: Circles or axis-aligned ellipses (independence).
+
+NPTEL
+
+Example 1: Independent Case
+Let μX = μY = 0, σX = σY = 1, and ρ = 0. Then
+f (x, y) = 1
+2π
+e
+− 1
+2
+(x
+2+y
+2
+)
+.
+
+X and Y are independent standard normal random variables.
+
+NPTEL
+
+Example 2: Correlated Case
+Let μX = μY = 0, σX = σY = 1, and ρ = 0.8. Then
+f (x, y) = 1
+2π
+√
+1 − 0.8
+2
+exp
+−
+1
+2(1 − 0.8
+2)
+(x
+2 − 1.6xy + y
+2
+)
+
+.
+X and Y are strongly positively correlated; most probability mass lies near the line y = x.
+NPTEL
+
+Example 3: Negative Correlation
+If ρ = −0.8, the density becomes concentrated near y = −x. The conditional means are negatively related:
+
+E[X|Y = y] = −0.8y.
+This corresponds to downward-tilted ellipses in the joint PDF.
+
+NPTEL
+
+Important Properties
+Marginals and conditionals are normal.
+E[X] = μX , E[Y ] = μY .
+Cov(X, Y ) = ρσX σY .
+E[X|Y ] and E[Y |X] are linear.
+The bivariate normal is the only joint distribution where linear correlation fully describes dependence.
+
+NPTEL
+
+Bivariate Normal Distribution
+For random variables X, Y with means μX , μY , standard deviations σX , σY , and correlation ρ:
+
+f (x, y) = 1
+2πσX σY
+p
+1 − ρ
+2
+exp
+−
+1
+2(1 − ρ
+2)
+Q(x, y)
+
+
+where
+
+Q(x, y) = 
+x − μX
+σX
+2
+− 2ρ
+
+x − μX
+σX
+y − μY
+σY
+
++
+
+y − μY
+σY
+2
+
+NPTEL
+
+Contours of Constant Density
+For a fixed constant c > 0, the set of points satisfying
+
+Q(x, y) = c
+
+forms a contour of equal probability density. This contour is an ellipse centered at (μX , μY ). It represents all points having
+the same likelihood under the bivariate normal distribution.
+
+NPTEL
+
+Geometric Interpretation
+A general second–degree (quadratic) curve in variables x and y can be written as
+Ax2 + 2Bxy + Cy 2 = constant.
+
+The nature of the curve depends on the discriminant ∆ = B
+2 − AC:
+
+
+
+∆ < 0 Ellipse,
+∆ = 0 Parabola,
+∆ > 0 Hyperbola.
+
+For the bivariate normal contour, we have
+A =
+1
+σ
+2
+X
+, B = −
+ρ
+σX σY
+, C =
+1
+σ
+2
+Y
+.
+
+Hence,
+
+B
+2 − AC =
+ρ
+2
+σ
+2
+X
+σ
+2
+Y
+−
+1
+σ
+2
+X
+σ
+2
+Y
+=
+ρ
+2 − 1
+σ
+2
+X
+σ
+2
+Y
+< 0,
+
+since |ρ| < 1.
+Therefore, the constant–density contours of the bivariate normal distribution are ellipses.
+NPTEL
+
+Effect of Correlation
+ρ = 0: ellipse axes align with coordinate axes.
+ρ > 0: ellipse tilts upward (positive association).
+ρ < 0: ellipse tilts downward (negative association).
+The correlation ρ controls the orientation and elongation of the ellipse.
+NPTEL
+
+A picture of contour ellipse
+
+Contours of the bivariate normal PDF. The diagram on the left (respectively, right) corresponds to a case of positive
+(respectively, negative) correlation coefficient ρ.
+
+NPTEL
+
+Covariance Matrix and Axes
+
+Σ =
+
+σ
+2
+X
+ρσX σY
+ρσX σY σ
+2
+Y
+
+
+Eigenvectors of Σ give the directions of the ellipse axes.
+Eigenvalues λ1, λ2 determine the squared lengths:
+
+Semi-axes lengths ∝
+p
+λ1,
+p
+λ2.
+NPTEL
+
+Angle of Rotation
+The angle θ (tilt of the ellipse with respect to the x-axis) is
+tan(2θ) = 2ρσX σY
+σ
+2
+X − σ
+2
+Y
+.
+
+This shows how the correlation ρ determines the rotation of the ellipse in the xy-plane.
+NPTEL
+
+Summary
+The contours of a bivariate normal distribution are ellipses.
+These ellipses represent constant probability density.
+The shape, size, and orientation of ellipses depend on the covariance matrix.
+NPTEL
+
+Joint PDF (setup)
+Let (X, Y ) have joint PDF
+
+f (x, y) = 1
+2πσX σY
+p
+1 − ρ
+2
+exp(
+−
+1
+2(1 − ρ
+2)
+Q(x, y)
+)
+,
+
+where
+
+Q(x, y) = (x − μX )
+2
+σ
+2
+X
+− 2ρ
+(x − μX )(y − μY )
+σX σY
++
+(y − μY )
+2
+σ
+2
+Y
+.
+
+We will prove: (A) marginals are normal, (B) conditional X|Y = y is normal (give mean and var), (C) E[X] = μX ,
+Cov(X, Y ) = ρσX σY , (D) ρ = 0 implies independence.
+
+NPTEL
+
+Marginal of X: integrate out y
+Compute
+
+fX (x) = Z ∞
+−∞
+f (x, y) dy =
+1
+2πσX σY
+p
+1 − ρ
+2
+Z ∞
+−∞
+expn
+−
+1
+2(1 − ρ
+2)
+Q(x, y)
+o
+dy.
+To evaluate the integral, view x fixed and treat Q(x, y) as a quadratic in y and complete the square.
+
+NPTEL
+
+Complete the square in y (details)
+Start with the y-part of Q(x, y):
+
+Q(x, y) = (y − μY )
+2
+σ
+2
+Y
+− 2ρ
+(x − μX )(y − μY )
+σX σY
++
+(x − μX )
+2
+σ
+2
+X
+.
+
+Focus on the first two terms and rewrite:
+(y − μY )
+2
+σ
+2
+Y
+− 2ρ
+(x − μX )(y − μY )
+σX σY
+=
+1
+σ
+2
+Y
+
+(y − μY )
+2 − 2ρ
+σY
+σX
+(x − μX )(y − μY )
+
+.
+
+Complete the square inside the bracket:
+
+(y − μY )
+2 − 2ρ
+σY
+σX
+(x − μX )(y − μY ) = 
+
+(y − μY ) − ρ
+σY
+σX
+(x − μX )
+2
+− ρ
+2 σ
+2
+Y
+σ
+2
+X
+(x − μX )
+2
+.
+
+Therefore
+
+Q(x, y) = 1
+σ
+2
+Y
+
+(y − μY ) − ρ
+σY
+σX
+(x − μX )
+2
++
+
+1 − ρ
+2
+(x − μX )
+2
+σ
+2
+X
+.
+
+NPTEL
+
+Finish integration for fX (x)
+Plugging the expression for Q(x, y) into fX (x):
+fX (x) = 1
+2πσX σY
+p
+1 − ρ
+2
+expn
+−
+1
+2
+(x − μX )
+2
+σ
+2
+X
+o Z ∞
+−∞
+expn
+−
+1
+2(1 − ρ
+2)
+·
+1
+σ
+2
+Y
+
+(y − μY ) − ρ
+σY
+σX
+(x − μX )
+2o
+dy.
+
+Change variable: let
+
+u =
+(y − μY ) − ρ
+σY
+σX
+(x − μX )
+σY
+p
+1 − ρ
+2
+,
+
+then dy = σY
+p
+1 − ρ
+2 du. The integral becomes
+Z ∞
+−∞
+1
+√
+2π
+e
+−u
+2/2
+du = 1.
+
+Thus
+
+fX (x) = 1
+√
+2πσX
+expn
+−
+(x − μX )
+2
+2σ
+2
+X
+o
+,
+
+so X ∼ N (μX , σ2
+X
+).
+
+NPTEL
+
+Conditional PDF fX|Y (x|y)
+By definition
+
+fX|Y (x|y) = f (x, y)
+fY (y)
+.
+
+To get its form, either compute fY (y) by integrating out x (symmetric to above) or isolate the x dependence in f (x, y) by
+completing the square in x. We proceed to complete the square in x (fixing y).
+NPTEL
+
+Complete the square in x (details)
+Write the quadratic form Q(x, y) grouping x terms:
+Q(x, y) = (x − μX )
+2
+σ
+2
+X
+− 2ρ
+(x − μX )(y − μY )
+σX σY
++
+(y − μY )
+2
+σ
+2
+Y
+.
+
+Factor the x-dependent part:
+
+1
+σ
+2
+X
+
+(x − μX )
+2 − 2ρ
+σX
+σY
+(y − μY )(x − μX )
+
+.
+
+Complete the square:
+(x − μX )
+2 − 2ρ
+σX
+σY
+(y − μY )(x − μX ) = 
+
+(x − μX ) − ρ
+σX
+σY
+(y − μY )
+2
+− ρ
+2 σ
+2
+X
+σ
+2
+Y
+(y − μY )
+2
+.
+
+Hence
+
+Q(x, y) = 1
+σ
+2
+X
+
+(x − μX ) − ρ
+σX
+σY
+(y − μY )
+2
++ (1 − ρ
+2
+)
+(y − μY )
+2
+σ
+2
+Y
+.
+
+NPTEL
+
+Form of fX|Y (x|y)
+From the completed square,
+f (x, y) = 1
+√
+2πσX
+p
+1 − ρ
+2
+expn
+−
+1
+2(1 − ρ
+2)
+·
+1
+σ
+2
+X
+
+(x − μX ) − ρ
+σX
+σY
+(y − μY )
+2o
+| {z }
+
+term depending on x
+
+·
+1
+√
+2πσY
+expn
+−
+1
+2
+(y − μY )
+2
+σ
+2
+Y
+o
+| {z }
+term depending on y
+.
+
+Thus the factor multiplying the y-term is exactly fX|Y (x|y) up to normalization. Dividing by fY (y) yields
+
+fX|Y (x|y) = 1
+√
+2π σX
+p
+1 − ρ
+2
+expn
+−
+1
+2
+x − (μX + ρ
+σX
+σY
+(y − μY ))2
+σ
+2
+X
+(1 − ρ
+2)
+o
+.
+
+Therefore
+
+X | Y = y ∼ N
+μX + ρ
+σX
+σY
+(y − μY ), σ2
+X (1 − ρ
+2
+)
+
+NPTEL
+.
+
+Means: E[X] = μX , E[Y ] = μY
+Because fX (x) is N (μX , σ2
+X
+), we have directly
+
+E[X] = μX , Var(X) = σ
+2
+X .
+
+Similarly fY (y) is N (μY , σ2
+Y
+), so E[Y ] = μY .
+
+NPTEL
+
+Covariance: compute Cov(X, Y )
+Use the law of total expectation:
+
+Cov(X, Y ) = E[(X − μX )(Y − μY )] = E
+
+E[(X − μX )(Y − μY ) | Y ]
+
+.
+
+Inside the conditional expectation, treat Y fixed:
+
+E[(X − μX )(Y − μY ) | Y = y] = (y − μY ) E[X − μX | Y = y].
+
+From the conditional mean found earlier,
+
+E[X − μX | Y = y] = ρ
+σX
+σY
+(y − μY ).
+
+Hence
+
+E[(X − μX )(Y − μY ) | Y = y] = ρ
+σX
+σY
+(y − μY )
+2
+.
+
+Now take expectation in Y :
+
+Cov(X, Y ) = ρ
+σX
+σY
+E[(Y − μY )
+2
+] = ρ
+σX
+σY
+σ
+2
+Y = ρσX σY .
+NPTEL
+
+Independence when ρ = 0
+If ρ = 0, the joint PDF simplifies:
+
+f (x, y) = 1
+2πσX σY
+expn
+−
+1
+2
+(x − μX )
+2
+σ
+2
+X
++
+(y − μY )
+2
+σ
+2
+Y
+o.
+
+This factors as
+
+f (x, y) = 1
+√
+2πσX
+e
+−
+(x−μX )
+2
+2σ2
+X
+| {z }
+fX (x)
+·
+1
+√
+2πσY
+e
+−
+(y−μY )
+2
+2σ2
+Y
+| {z }
+fY (y)
+.
+
+Since f (x, y) = fX (x)fY (y) for all x, y, X and Y are independent.
+
+NPTEL
+
+Properties of Bivariate Normal Distribution
+X and Y are independent if and only if they are uncorrelated.
+The conditional expectation of X given Y satisfies
+
+E[X | Y ] = E[X] + ρ
+σX
+σY
+(Y − E[Y ]).
+
+It is a linear function of Y and has a normal PDF.
+The estimation error X ̃ = X − E[X | Y ] is zero-mean, normal, and independent of Y , with variance
+
+σ
+2
+X ̃ = (1 − ρ
+2
+)σ
+2
+X .
+
+The conditional distribution of X given Y is normal with mean E[X | Y ] and variance σ
+2
+X ̃
+.
+
+If (X, Y ) has a bivariate normal distribution, then any linear combination of
+NPTEL
+
+X and Y is a normal distribution.

@@ -1,0 +1,6 @@
+https://www.ibm.com/think/topics/overfitting-vs-underfitting
+
+https://elitedatascience.com/overfitting-in-machine-learning
+
+
+https://github.com/WillKoehrsen/Data-Analysis/blob/master/over_vs_under/Over%20vs%20Under%20Fitting%20Example.ipynb
