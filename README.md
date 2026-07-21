@@ -37,6 +37,16 @@ It is organized systematically into subject-wise folders containing notes, assig
 ```
 
 ## 🛠️ Tools & Technologies
+![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-Database-4479A1?logo=mysql&logoColor=white)
+![Microsoft Excel](https://img.shields.io/badge/Microsoft%20Excel-Spreadsheet-217346?logo=microsoftexcel&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-Business%20Intelligence-F2C811?logo=powerbi&logoColor=black)
+![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
+![Deep Learning](https://img.shields.io/badge/Deep%20Learning-Neural%20Networks-FF6F00)
+![Git](https://img.shields.io/badge/Git-Version%20Control-F05032?logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-Code-181717?logo=github&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Containers-2496ED?logo=docker&logoColor=white)
 Python
 SQL
 Microsoft Excel
