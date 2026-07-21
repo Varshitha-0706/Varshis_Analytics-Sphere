@@ -67,9 +67,9 @@ It is organized systematically into subject-wise folders containing notes, assig
 ✔ Easy to navigate for revision and reference  
 
 ## 🚀 Future Enhancements
-Add end-to-end Machine Learning projects
-Build Streamlit applications
-Upload Power BI dashboards
+Add end-to-end Machine Learning projects   
+Build Streamlit applications    
+Upload Power BI dashboards    
 Expand interview preparation material
 
 ## 👩‍💻 Author
