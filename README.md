@@ -47,15 +47,6 @@ It is organized systematically into subject-wise folders containing notes, assig
 ![Git](https://img.shields.io/badge/Git-Version%20Control-F05032?logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-Code-181717?logo=github&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-Containers-2496ED?logo=docker&logoColor=white)
-Python
-SQL
-Microsoft Excel
-Power BI
-Jupyter Notebook
-Machine Learning
-Deep Learning
-Git & GitHub
-Docker
 
 ## 🎯 Purpose
 - Maintain a well-organized learning repository  
