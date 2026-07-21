@@ -1,10 +1,10 @@
 # 📊 Varshis_Analytics_Sphere 🔥🎯
+### A Comprehensive Data Science & Analytics Learning Repository 🚀
+
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=28&pause=1000&color=8A2BE2&center=true&vCenter=true&width=900&lines=Welcome+to+Varshis+Analytics+Sphere!;Data+Science+%7C+Machine+Learning" />
 </p>
-
-### A Comprehensive Data Science & Analytics Learning Repository 🚀
 
 *"Learn → Practice → Build → Share → Improve."*
 
@@ -18,8 +18,8 @@
 
 > This repository showcases a structured collection of my academic learning and practical work in
    `Data Science`. `Machine Learning`. `SQL`. `Python`. `Excel`. `Big Data`. `Power BI`
-
-It is organized systematically into subject-wise folders containing notes, assignments, weekly materials, and implementation resources for efficient learning and revision.
+> 
+Designed to organize notes, projects, assignments, interview resources, and hands-on implementations for efficient learning and revision in one place.
 
 ## 📂 Repository Structure 👀
 ```
@@ -81,8 +81,7 @@ Varshitha Molabanti
 
 ---
 > [!Note]
-This repository is continuously updated as part of my learning journey.
-
+> This repository is continuously updated as part of my learning journey.
 > "Consistency beats intensity. Small progress every day leads to big achievements."
 
 <div align="center">
