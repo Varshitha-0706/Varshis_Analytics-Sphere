@@ -74,6 +74,8 @@ Varshitha Molabanti
 ## 🔗 **Let's Connect** 🤝
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/molabanti-varshitha-303271373)
 
+![](https://komarev.com/ghpvc/?username=Varshitha-0706&color=blue)
+
 
 > [!Note]
 > This repository is continuously updated as part of my learning journey.  
