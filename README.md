@@ -1,14 +1,10 @@
 # 📊 Varshis_Analytics_Sphere 🔥🎯
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=28&pause=1000&color=00BFFF&center=true&vCenter=true&width=900&lines=Welcome+to+Varshis+Analytics+Sphere!;Data+Science+%7C+Machine+Learning;Python+%7C+SQL+%7C+Power+BI;Always+Learning+🚀" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=28&pause=1000&color=#8A2BE2&center=true&vCenter=true&width=900&lines=Welcome+to+Varshis+Analytics+Sphere!;Data+Science+%7C+Machine+Learning" />
 </p>
 ### A Comprehensive Data Science & Analytics Learning Repository 🚀
 *"Learn → Practice → Build → Share → Improve."*
 
-[![Repo Size](https://img.shields.io/github/repo-size/Varshitha-0706/Varshis_Analytics-Sphere)](https://github.com/Varshitha-0706/Varshis_Analytics-Sphere)
-[![Last Commit](https://img.shields.io/github/last-commit/Varshitha-0706/Varshis_Analytics-Sphere)](https://github.com/Varshitha-0706/Varshis_Analytics-Sphere)
-[![Stars](https://img.shields.io/github/stars/Varshitha-0706/Varshis_Analytics-Sphere?style=social)](https://github.com/Varshitha-0706/Varshis_Analytics-Sphere)
-[![Forks](https://img.shields.io/github/forks/Varshitha-0706/Varshis_Analytics-Sphere?style=social)](https://github.com/Varshitha-0706/Varshis_Analytics-Sphere)
 
 ## 📌 Overview
 
