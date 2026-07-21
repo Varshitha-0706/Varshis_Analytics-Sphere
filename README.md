@@ -1,12 +1,11 @@
 # 📊 Varshis_Analytics_Sphere 🔥🎯
-<p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=28&pause=1000&color=#8A2BE2&center=true&vCenter=true&width=900&lines=Welcome+to+Varshis+Analytics+Sphere!;Data+Science+%7C+Machine+Learning" />
-</p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/📊_Data_Science-0F766E?style=for-the-badge">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=28&pause=1000&color=8A2BE2&center=true&vCenter=true&width=900&lines=Welcome+to+Varshis+Analytics+Sphere!;Data+Science+%7C+Machine+Learning" />
 </p>
+
 ### A Comprehensive Data Science & Analytics Learning Repository 🚀
+
 *"Learn → Practice → Build → Share → Improve."*
 
 
