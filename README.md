@@ -77,11 +77,8 @@ Varshitha Molabanti
 
 This repository is continuously updated as part of my learning journey.
 ---
-
-<div align="center">
 > "Consistency beats intensity. Small progress every day leads to big achievements."
 
+<div align="center">
 # ⭐ Thank you for visiting this repository!
-
-
 </div>
