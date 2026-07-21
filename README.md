@@ -2,9 +2,6 @@
 <p align="center">
 <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=28&pause=1000&color=00BFFF&center=true&vCenter=true&width=900&lines=Welcome+to+Varshis+Analytics+Sphere!;Data+Science+%7C+Machine+Learning;Python+%7C+SQL+%7C+Power+BI;Always+Learning+🚀" />
 </p>
-<p align="center">
-  <img src="banner.png" alt="Analytics Sphere Banner" width="100%">
-</p>
 ### A Comprehensive Data Science & Analytics Learning Repository 🚀
 *"Learn → Practice → Build → Share → Improve."*
 ![GitHub repo size](https://img.shields.io/github/repo-size/Varshitha-0706/Varshis_Analytics-Sphere)
