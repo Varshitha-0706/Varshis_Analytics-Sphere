@@ -8,6 +8,11 @@
 
 *"Learn → Practice → Build → Share → Improve."*
 
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=python,mysql,docker,git,github,vscode" />
+
+</p>
 
 ## 📌 Overview
 
@@ -74,10 +79,10 @@ Varshitha Molabanti
 ## 🔗 **Let's Connect** 🤝
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/molabanti-varshitha-303271373)
 
-⭐ Note
-
-This repository is continuously updated as part of my learning journey.
 ---
+> [!Note>
+This repository is continuously updated as part of my learning journey.
+
 > "Consistency beats intensity. Small progress every day leads to big achievements."
 
 <div align="center">
