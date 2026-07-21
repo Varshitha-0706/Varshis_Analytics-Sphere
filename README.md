@@ -6,12 +6,9 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=28&pause=1000&color=10B981&center=true&vCenter=true&width=900&lines=Welcome+to+Varshis+Analytics+Sphere!;Data+Science+%7C+Machine+Learning" />
 </p>
 
-*"Learn → Practice → Build → Share → Improve."*
 
 <p align="center">
-
-<img src="https://skillicons.dev/icons?i=python,mysql,docker,git,github,vscode" />
-
+  <img src="https://skillicons.dev/icons?i=python,mysql,docker,git,github,vscode&perline=6" width="320"/>
 </p>
 
 ## 📌 Overview
