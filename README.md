@@ -1,13 +1,12 @@
 # 📊 Varshis_Analytics_Sphere 🔥🎯
 ### A Comprehensive Data Science & Analytics Learning Repository 🚀
-<i>📊 Transforming Curiosity into Knowledge and Data into Decisions.</i>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=28&pause=1000&color=10B981&center=true&vCenter=true&width=900&lines=Welcome+to+Varshis+Analytics+Sphere!;Data+Science+%7C+Machine+Learning" />
 </p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,mysql,jupyter,docker,git,github,vscode&perline=6" width="320"/>
+  <img src="https://skillicons.dev/icons?i=python,mysql,jupyter notebook,docker,git,github,vscode&perline=6" width="320"/>
 </p>
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=10B981&height=80&section=footer"/>
 ## 📌 Overview
