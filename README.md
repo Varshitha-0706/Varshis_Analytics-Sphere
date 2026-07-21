@@ -10,7 +10,6 @@
 </p>
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=10B981&height=80&section=footer"/>
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:ff6b6b,25:feca57,50:48dbfb,75:1dd1a1,100:5f27cd&height=120&section=header"/>
-
 ## 📌 Overview
 
 > This repository showcases a structured collection of my academic learning and practical work in
