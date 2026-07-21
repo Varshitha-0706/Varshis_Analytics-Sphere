@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,mysql,jupyter notebook,docker,git,github,vscode&perline=6" width="320"/>
+  <img src="https://skillicons.dev/icons?i=python,mysql,docker,git,github,vscode&perline=6" width="320"/>
 </p>
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=10B981&height=80&section=footer"/>
 ## 📌 Overview
