@@ -4,10 +4,11 @@
 </p>
 ### A Comprehensive Data Science & Analytics Learning Repository 🚀
 *"Learn → Practice → Build → Share → Improve."*
-![GitHub repo size](https://img.shields.io/github/repo-size/Varshitha-0706/Varshis_Analytics-Sphere)
-![GitHub last commit](https://img.shields.io/github/last-commit/Varshitha-0706/Varshis_Analytics-Sphere)
-![GitHub stars](https://img.shields.io/github/stars/Varshitha-0706/Varshis_Analytics-Sphere?style=social)
-![GitHub forks](https://img.shields.io/github/forks/Varshitha-0706/Varshis_Analytics-Sphere?style=social)
+
+[![Repo Size](https://img.shields.io/github/repo-size/Varshitha-0706/Varshis_Analytics-Sphere)](https://github.com/Varshitha-0706/Varshis_Analytics-Sphere)
+[![Last Commit](https://img.shields.io/github/last-commit/Varshitha-0706/Varshis_Analytics-Sphere)](https://github.com/Varshitha-0706/Varshis_Analytics-Sphere)
+[![Stars](https://img.shields.io/github/stars/Varshitha-0706/Varshis_Analytics-Sphere?style=social)](https://github.com/Varshitha-0706/Varshis_Analytics-Sphere)
+[![Forks](https://img.shields.io/github/forks/Varshitha-0706/Varshis_Analytics-Sphere?style=social)](https://github.com/Varshitha-0706/Varshis_Analytics-Sphere)
 
 ## 📌 Overview
 
