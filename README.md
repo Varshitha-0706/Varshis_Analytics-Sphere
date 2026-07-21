@@ -80,7 +80,7 @@ Varshitha Molabanti
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/molabanti-varshitha-303271373)
 
 ---
-> [!Note>
+> [!Note]
 This repository is continuously updated as part of my learning journey.
 
 > "Consistency beats intensity. Small progress every day leads to big achievements."
