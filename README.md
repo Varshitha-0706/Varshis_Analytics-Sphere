@@ -81,5 +81,5 @@ Varshitha Molabanti
 > "Consistency beats intensity. Small progress every day leads to big achievements."
 
 <div align="center">
-# ⭐ Thank you for visiting this repository!
+#⭐ Thank you for visiting this repository!
 </div>
