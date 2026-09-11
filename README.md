@@ -68,6 +68,30 @@ Build Streamlit applications
 Upload Power BI dashboards    
 Expand interview preparation material
 
+<p align="center">
+  <img src="https://img.shields.io/badge/💡-Turning%20Data%20into%20Insights-10B981?style=for-the-badge"/>
+  <br><br>
+  💻 <b>DSA & Coding Practice:</b>
+  <a href="https://github.com/Varshitha-0706/Data-Structures.git">
+    <b>DSA-Placement-Preparation</b>
+  </a>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/💡-Turning%20Data%20into%20Insights-10B981?style=for-the-badge"/>
+  <br><br>
+  💻 <b>DSA & Coding Practice:</b>
+  <a href="https://github.com/Varshitha-0706/Data-Structures.git">
+    DSA-Placement-Preparation
+  </a>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/💡-Turning%20Data%20into%20Insights-10B981?style=for-the-badge"/>
+  <br><br>
+  <a href="https://github.com/Varshitha-0706/Data-Structures">
+    <img src="https://img.shields.io/badge/💻-DSA%20%26%20Coding%20Practice-6C63FF?style=for-the-badge"/>
+  </a>
+</p>
+
 ## 👩‍💻 Author
 Varshitha Molabanti  
 ~🎯 Aspiring Data Scientist | Machine Learning Enthusiast
