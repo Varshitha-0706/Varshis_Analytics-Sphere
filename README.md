@@ -55,7 +55,7 @@ Designed to organize notes, projects, assignments, interview resources, and hand
 - Showcase academic and practical work  
 - Support internship and placement preparation
  
---
+---
 ## ✨ Repository Highlights
 ✔ Structured subject-wise organization  
 ✔ Covers both theory and implementation  
