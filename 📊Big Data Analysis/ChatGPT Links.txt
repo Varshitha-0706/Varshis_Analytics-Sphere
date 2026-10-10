@@ -1,3 +1,5 @@
 WHY TRANSPOSE IN PCA:https://chatgpt.com/share/69dce68f-a048-8320-a5bc-f657fc26c8ba
 
 PCA Sum:https://chatgpt.com/share/69dce68f-a048-8320-a5bc-f657fc26c8ba
+
+PCA EXAMPLE: https://chatgpt.com/share/69d74963-c534-8321-a21a-7818d99981b7
